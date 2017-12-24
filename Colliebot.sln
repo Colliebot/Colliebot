@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colliebot.Core", "Colliebot.Core\src\Colliebot.Core.csproj", "{ED93FE4D-B23B-48D6-A203-4E4AA90EA3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colliebot.Core", "Colliebot.Core\src\Colliebot.Core.csproj", "{ED93FE4D-B23B-48D6-A203-4E4AA90EA3BA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colliebot.Rest", "Colliebot.Rest\src\Colliebot.Rest.csproj", "{6FEA2D50-ACE8-4C81-95B1-40FBADFC6A87}"
 EndProject
@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colliebot.Api.Rest", "Colli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rest", "rest", "{D75FD22D-C375-4963-BF89-E8DA7AC38A23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colliebot.Database", "Colliebot.Database\src\Colliebot.Database.csproj", "{6AEAE72F-5E3D-4E7F-B998-E64A270E4EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Colliebot.Database", "Colliebot.Database\src\Colliebot.Database.csproj", "{6AEAE72F-5E3D-4E7F-B998-E64A270E4EB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integrations", "integrations", "{D24818C5-BC9A-4DCE-AA74-8CEFA2A25E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colliebot.Integrations.Discord", "Colliebot.Integrations.Discord\src\Colliebot.Integrations.Discord.csproj", "{A33E70AE-883D-4088-9755-736E650B4DF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{6AEAE72F-5E3D-4E7F-B998-E64A270E4EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AEAE72F-5E3D-4E7F-B998-E64A270E4EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AEAE72F-5E3D-4E7F-B998-E64A270E4EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33E70AE-883D-4088-9755-736E650B4DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33E70AE-883D-4088-9755-736E650B4DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33E70AE-883D-4088-9755-736E650B4DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33E70AE-883D-4088-9755-736E650B4DF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,5 +51,9 @@ Global
 		{6FEA2D50-ACE8-4C81-95B1-40FBADFC6A87} = {D75FD22D-C375-4963-BF89-E8DA7AC38A23}
 		{6D87009C-8672-43BA-BDE6-EA77E80D303D} = {D75FD22D-C375-4963-BF89-E8DA7AC38A23}
 		{6AEAE72F-5E3D-4E7F-B998-E64A270E4EB4} = {D75FD22D-C375-4963-BF89-E8DA7AC38A23}
+		{A33E70AE-883D-4088-9755-736E650B4DF7} = {D24818C5-BC9A-4DCE-AA74-8CEFA2A25E3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA4EC52-43B5-47B9-9234-47F5AF1E798E}
 	EndGlobalSection
 EndGlobal
